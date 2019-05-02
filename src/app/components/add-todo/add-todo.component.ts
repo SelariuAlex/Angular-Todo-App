@@ -16,6 +16,7 @@ export class AddTodoComponent implements OnInit {
 
   onSubmit() {
     const todo = {
+      id: Math.random(),
       title: this.title,
       completed: false
     };
